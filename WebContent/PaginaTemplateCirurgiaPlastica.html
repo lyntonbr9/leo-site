@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<link href="./PaginaTemplateCirurgiaPlastica_files/style.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./PaginaTemplateCirurgiaPlastica_files/orbit-1.2.3.css">
+<title>Clínica de cirurgia plástica | Cirurgia Plástica Leo</title>
+<meta name="description" content="Localizado em campo grande, a Cirugia Plástica Leo é especializada, cirurgia de prótese de mama, plástica para mulheres, entre outras.">
+
+
+
+<script type="text/javascript" async="" src="./PaginaTemplateCirurgiaPlastica_files/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41293973-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript" src="./PaginaTemplateCirurgiaPlastica_files/jquery-1.7.2.min.js"></script> 
+  
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+-->
+
+<script type="text/javascript" src="./PaginaTemplateCirurgiaPlastica_files/jquery.orbit-1.2.3.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  var currentPosition = 0;
+
+  var slideWidth = 908;
+
+  var slides = $('.slide');
+
+  var numberOfSlides = slides.length;
+
+
+
+  // Remove scrollbar in JS
+
+  $('#slidesContainer').css('overflow', 'hidden');
+
+
+
+  // Wrap all .slides with #slideInner div
+
+  slides
+
+    .wrapAll('<div id="slideInner"></div>')
+
+    // Float left to display horizontally, readjust .slides width
+
+	.css({
+
+      'float' : 'left',
+
+      'width' : slideWidth
+
+    });
+
+
+
+  // Set #slideInner width equal to total width of all slides
+
+  $('#slideInner').css('width', slideWidth * numberOfSlides);
+
+
+
+  // Insert controls in the DOM
+
+  $('#slideshow')
+
+    .prepend('<span class="control" id="leftControl">Clicking moves left</span>')
+
+    .append('<span class="control" id="rightControl">Clicking moves right</span>');
+
+
+
+  // Hide left arrow control on first load
+
+  manageControls(currentPosition);
+
+
+
+  // Create event listeners for .controls clicks
+
+  $('.control')
+
+    .bind('click', function(){
+
+    // Determine new position
+
+	currentPosition = ($(this).attr('id')=='rightControl') ? currentPosition+1 : currentPosition-1;
+
+    
+
+	// Hide / show controls
+
+    manageControls(currentPosition);
+
+    // Move slideInner using margin-left
+
+    $('#slideInner').animate({
+
+      'marginLeft' : slideWidth*(-currentPosition)
+
+    });
+
+  });
+
+
+
+  // manageControls: Hides and Shows controls depending on currentPosition
+
+  function manageControls(position){
+
+    // Hide left arrow if position is first slide
+
+	if(position==0){ $('#leftControl').hide() } else{ $('#leftControl').show() }
+
+	// Hide right arrow if position is last slide
+
+    if(position==numberOfSlides-1){ $('#rightControl').hide() } else{ $('#rightControl').show() }
+
+  }	
+
+});
+
+</script>
+
+
+
+
+<script type="text/javascript" src="./PaginaTemplateCirurgiaPlastica_files/cicle.js"></script>
+<script language="JavaScript" type="text/javascript">
+    $(function() {
+        $('#slideShow').cycle({ fx: 'fade' });
+    });
+  </script>
+  
+  <script type="text/javascript">
+     $(window).load(function() {
+         $('#featured').orbit({
+              bullets: true
+         });
+     });
+</script>
+
+
+<script type="text/javascript">
+	function validacao(){
+		
+		if (form1.nome.value == ""){
+			alert("Por favor, preencha o campo 'nome'!")
+			form1.nome.focus()
+			return false
+		}
+	if ((form1.email.value.indexOf("@") < 0) && (form1.email.value.indexOf(".") < 0)){
+			alert("Por favor, preencha corretamente o campo 'Email'")
+			form1.email.focus()
+			return false
+		}
+										
+			return true
+	}
+</script>
+
+<!-- http://www.cirurgiaplasticamiura.com.br/ -->
+
+</head>
+
+<body>
+
+
+<div id="root">
+	<div id="topo">
+		<h1 class="logo">
+			<a href="http://www.llespinoza.com/index.php"></a>
+		</h1>
+	    <div class="topo1">
+	        <h1>Centro de Contorno Corporal e Facial</h1><br>
+	        <h2>Cirurgia Plástica</h2><br>
+	        <h3>Dr. Leo Lara&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span class="f16 quick">CRM-SP 99.999</span></h3>
+	    </div>
+		<img src="./PaginaTemplateCirurgiaPlastica_files/t1.jpg" class="floatleft" alt="Atendimento dr. Leo Lara">
+		<div class="topo2">
+			<h1>
+				<strong>ATENDIMENTO</strong>
+			</h1>
+			<h2>
+				21 9999-9999<br>
+			</h2>
+		</div>
+	</div>
+
+<div class="miolototal">
+<div class="b1home">
+
+<div class="gallery">
+
+	<div class="orbit-wrapper" style="width: 416px; height: 289px;"><div id="featured" class="orbit" style="width: 416px; height: 289px;"> 
+		
+			<a href="" style="z-index: 3; display: block; left: 0px;"><img src="./PaginaTemplateCirurgiaPlastica_files/galeria-teste.png" alt="Galeria de fotos dr. Leo "></a>
+			<a href="http://www.llespinoza.com/#" style="display: block; left: -416px; z-index: 1;"><img src="./PaginaTemplateCirurgiaPlastica_files/imggalery2.png" alt="Galeria dr. Leo "></a>
+			<img src="./PaginaTemplateCirurgiaPlastica_files/imggalery3.png" alt="Fotos dr. Leo " style="display: block; left: -416px; z-index: 1;">
+		</div><div class="timer"><span class="mask"><span class="rotator" style="-webkit-transform: rotate(122deg);"></span></span><span class="pause"></span></div><div class="orbit-caption"></div><div class="slider-nav"><span class="right">Right</span><span class="left">Left</span></div><ul class="orbit-bullets"><li class="active">1</li><li class="">2</li><li class="">3</li></ul></div>
+</div>	
+
+<div class="box-curriculo-home">
+
+<h1 class="nome-doutorh1">Dr. Leo </h1><br>
+<h2 class="nome-doutorh2">Membro da Associação<br>
+dos Ex-Alunos do Prof. Ivo Pitanguy</h2>
+<h3 class="nome-doutorh3">Formado pela USP há mais de 27 anos. 
+  <br>
+  Membro Especialista Associado da Sociedade Brasileira<br>
+de Cirurgia Plástica (SBCP).<br>
+<br>
+<img src="./PaginaTemplateCirurgiaPlastica_files/bot-curriculum.jpg" width="366" height="30" usemap="#Map2" border="0" alt="Curriculum dr. Leo ">
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="2,4,379,28" href="http://www.llespinoza.com/curriculum.php" alt="Curriculum Dr. Leo ">
+</map>
+</h3>
+
+</div>
+</div>
+<div class="colesq">
+<div class="boxesq"><a href="http://www.llespinoza.com/contour-.php">
+<div class="b1"><h1>A Clínica</h1><br>
+<h2>Centro de Contorno Corporal e Facial</h2><br>
+<p>
+Clínica de cirurgia plástica situada no Jardins – SP, nasceu com a finalidade de realizar os desejos e sonhos de pessoas que queiram se beneficiar das mais eficazes técnicas de cirurgia plástica, estética e corretiva.
+</p></div></a>
+<div id="pageContainer"><!-- Slideshow HTML -->
+
+      <div id="slideshow"><span class="control" id="leftControl" style="display: none;">Clicking moves left</span> 
+        <div id="slidesContainer" style="overflow: hidden;"> 
+          <div id="slideInner" style="width: 4540px;"><div class="slide" style="float: left; width: 908px;"> <img src="./PaginaTemplateCirurgiaPlastica_files/01.jpg" alt="Consultório dr. Leo "> 
+          </div><div class="slide" style="float: left; width: 908px;"> <img src="./PaginaTemplateCirurgiaPlastica_files/04g.jpg" width="373" height="493" alt="Consultório Cirurgia Plástica dr. Leo ">
+          </div><div class="slide" style="float: left; width: 908px;"><img src="./PaginaTemplateCirurgiaPlastica_files/06g.jpg" width="373" height="493" alt="Cirurgia Íntima dr. Leo ">
+          </div><div class="slide" style="float: left; width: 908px;"><img src="./PaginaTemplateCirurgiaPlastica_files/ff1.jpg" alt="Curriculum Dr. Leo ">
+          </div><div class="slide" style="float: left; width: 908px;"><img src="./PaginaTemplateCirurgiaPlastica_files/ff2.jpg" alt="Cirurgião Plástico dr. Leo ">
+          </div></div>
+        </div>
+      <span class="control" id="rightControl">Clicking moves right</span></div>
+
+  </div>
+                
+</div>
+
+<div class="baixohome1">
+<h1>Cirurgias Plásticas
+</h1><br class="clearboth">
+<a href="http://www.llespinoza.com/mamoplastia-aumento.php"><div class="baixohome2"><h2>Prótese de Silicone</h2>
+<p>Prótese de silicone, ou mamoplastia de aumento, é indicada para mulheres com mamas pequenas. Saiba mais.</p>
+
+</div></a>
+<a href="http://www.llespinoza.com/lipoaspiracao.php"><div class="baixohome3"><h2>Lipoaspiração</h2>
+<p>Especialidade que busca a redução do volume do gordura corporal. A maior mudança é na silhueta corporal. Saiba mais.</p>
+
+</div></a><br class="clearboth"><br>
+<a href="http://www.llespinoza.com/abdominoplastia.php"><div class="baixohome2" style="margin-top:6px;"><h2>Abdominoplastia</h2> 
+<p>Cirurgia Plástica para remoção de excesso de pele e gordura na região do abdome na  Cirurgia Plástica.</p>
+
+</div></a>
+<a href="http://www.llespinoza.com/rinoplastia.php"><div class="baixohome3" style="margin-top:6px; margin-bottom:10px;"><h2>Rinoplastia</h2>
+
+<p>Cirurgia Plástica para correção da alteração ou forma do nariz, que é fundamental para a harmonia e beleza facial.</p>
+
+</div></a>
+<br><br>
+<p>
+<a href="http://www.llespinoza.com/cirurgias-plasticas.php" class="cinza66"><u>Outros Tratamentos</u></a></p><br class="clearboth"><br><br>
+<br><br>
+<h1>Tratamentos Estéticos
+</h1><br class="clearboth">
+<a href="http://www.llespinoza.com/bioplastia.php"><div class="baixohome2"><h2>Bioplastia</h2>
+<p>A Bioplastia é a plástica sem cortes, que pode ser aplicada no rosto e no corpo. Saiba mais.</p>
+</div></a><a href="http://www.llespinoza.com/depilacao-laser.php" class="cinza66">
+<div class="baixohome3"><h2>Depilação com laser</h2>
+<p>Para acabar com os pelos indesejáveis, a técnica de Depilação com Laser possui efeitos duráveis. Saiba mais. </p>
+<p>&nbsp;</p>
+
+</div></a><br class="clearboth"><br>
+<a href="http://www.llespinoza.com/toxina-botulinica.php"><div class="baixohome2"><h2>Toxina Botulinica</h2> 
+<p>A ação da toxina se dá pelo bloqueio de liberação da acetilcolina na junção neuromuscular, desencadeando todo um processo de inatividade muscular.</p>
+
+</div></a><a href="http://www.llespinoza.com/laser-co2-fracionado.php">
+<div class="baixohome3"><h2>Laser CO2 Fracionado</h2>
+
+<p>Novo método para tratamento dos sinais do envelhecimento, que visa o rejuvenescimento com uma recuperação mais tranquila. </p>
+
+</div></a>
+<br><br class="clearboth">
+<p><br><br><br>
+<a href="http://www.llespinoza.com/estetica.php" class="cinza66" style="margin-top:10px;"><u>Outros Tratamentos</u></a></p>
+</div>
+
+</div><div class="coldir"><img src="./PaginaTemplateCirurgiaPlastica_files/coldir1.jpg" width="200" height="1085" alt="American Society of Plastic Surgeons Dr. Leo "></div>
+
+<img src="./PaginaTemplateCirurgiaPlastica_files/vid.jpg" width="990" height="301" usemap="#Map" border="0" alt="Doutor formado em medicina na UERJ Dr. Leo ">
+<map name="Map" id="Map">
+  <area shape="rect" coords="28,68,254,249" href="http://www.llespinoza.com/video-seguranca-cirurgia-plastica.php" alt="Cirurgia Estética Dr. Leo ">
+  <area shape="rect" coords="263,66,491,246" href="http://www.llespinoza.com/video-cirurgia-intima.php" alt="Membro da International Society of Plastic Regenerative Surgery Dr. Leo ">
+  <area shape="rect" coords="497,67,727,246" href="http://www.llespinoza.com/video-procedimentos.php" alt="Cirurgia de mamas Dr. Leo ">
+  <area shape="rect" coords="729,65,959,240" href="http://www.llespinoza.com/video-3d.php" alt="Veja vídeos 3d Dr. Leo ">
+  <area shape="rect" coords="801,255,964,287" href="http://www.llespinoza.com/videos.php" alt="Assista vídeos explicativos Dr. Leo ">
+</map>
+</div></div><br class="clearboth"><br><br>
+<div align="center">
+<img src="./PaginaTemplateCirurgiaPlastica_files/dipomas.jpg" width="964" height="208" alt="Diplomas dr. Leo "> 
+</div>
+<div id="rootfooter">
+<div id="root">
+
+<div class="dentrofooter">
+<h1>AGENDE SUA CONSULTA<br>
+11 9999-9999</h1><br>
+<h2>De 2ª a 6ª feira das 12 às 21 hs.
+e Sábados das 10 às 14 hs.</h2>
+</div><div class="dentrofooter2">
+<h1>NOSSA LOCALIZAÇÃO</h1>
+<h2>Rua: Teste de Rua<br>
+</h2>
+</div>
+
+<br class="clearboth">
+<p style="color:#FFF">IMPORTANTE: Algumas fotos aplicadas no site são meramente ilustrativas.</p>
+<img src="./PaginaTemplateCirurgiaPlastica_files/l-f.jpg" alt="Cirurgia Plástica Dr. Leo "><br><br>
+<p class="pmenor">Copyright © Cirurgia Plástica - Todos os direitos reservados.</p>
+</div>
+
+</div>
+
+</body></html>
